@@ -1,0 +1,21 @@
+{
+  "name": "landing_page",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "HicksonWei <hanks199021@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "popper.js": "^1.12.9",
+    "jquery": "^3.2.1"
+  }
+}
