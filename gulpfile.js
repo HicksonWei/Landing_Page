@@ -158,7 +158,7 @@ gulp.task('deploy', function () {
 gulp.task('once', $.sequence('copyBsV', 'copyFonts'));
 
 //交付前專案建立
-gulp.task('build', $.sequence('clean', 'jade', 'sass', 'babel', 'vendorJs', 'image-min'));
+gulp.task('build', $.sequence('clean', 'jade', 'sass', 'babel', 'vendorJs', 'copyFonts', 'image-min'));
 
 // default 為預設，使用時只需輸入 gulp 即可
 gulp.task('default', ['jade', 'sass', 'babel', 'vendorJs', 'image-min', 'browser-sync', 'watch']);
